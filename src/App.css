@@ -7,10 +7,12 @@ header, .collage {
 .collage {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .collage * {
-    flex: 1 0 20%;
-    margin: 1%;
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw;
 }
 
